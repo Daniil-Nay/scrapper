@@ -1,0 +1,11 @@
+name: tg-ml-scraper
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - telethon==1.36.0
+      - APScheduler==3.10.4
+      - python-dotenv==1.0.1
+      - aiogram==3.13.1
